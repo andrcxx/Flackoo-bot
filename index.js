@@ -83,4 +83,4 @@ client.on("guildMemberAdd", async (member) => {
    });
 
 
-client.login("******"); //Ligando o Bot caso ele consiga acessar o token
+client.login(process.env.TOKEN_DISCORD); //Ligando o Bot caso ele consiga acessar o token
